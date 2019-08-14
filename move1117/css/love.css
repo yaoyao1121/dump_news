@@ -1,0 +1,148 @@
+.love_part2{
+	height: 11rem;
+	background: #ff804c;
+	padding:12px 12px 12px 0;
+	overflow:hidden;
+}
+.love_part2 p{
+	width:50%;
+	float:left;
+	color:#fff;
+	font-size:13px;
+	height:100%;
+}
+.love_part2 p.bgpic {
+	color:transparent;
+	background:url(../img/cd.png) no-repeat left center;
+	background-size: contain;
+}
+.love_part2 p.fontcont{
+	line-height: 24px;
+	padding-left:5px;
+	overflow: auto;
+}
+section{
+	position:absolute;
+	top:21.9rem;
+	bottom:4.2rem;
+	width:100%;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: justify;
+    -ms-flex-align: center;
+}
+section article{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	-ms-box-orient:vertical;
+	-webkit-box-align: center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+section article .pic_show{
+	position:relative;
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+section article .pic .fcon1{
+	background: url(../img/love_bannerpic.jpg) no-repeat center center;
+	background-size:cover;
+}
+section article .pic .fcon2{
+	background: url(../img/love_bannerpic.jpg) no-repeat center center;
+	background-size:cover;
+}
+section article .news_title{
+    position: absolute;
+    z-index: 1000;
+    bottom:50px;
+    width:12rem;
+    left:50%;
+    transform:translateX(-50%);
+}
+section article .swiper-container {
+    width: 100%;
+    position: absolute;
+}
+section .sib_nav{
+	width: 10.5rem;
+    border-left: 1px solid #fff;
+    background: #ff804c;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-box-align: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+section .sib_nav a{
+	display: block;
+	text-align:center;
+	position: relative;
+	color:transparent;
+	border-top:1px solid #fff;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+section .sib_nav a.apply_box{
+	background: url(../img/love_acitve.png) no-repeat center center;
+	background-size:60% auto;
+}
+section .sib_nav a.listen_box{
+	background: url(../img/love_bycd.png) no-repeat center center;
+	background-size:60% auto;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-device-pixel-ratio: 2)
+and (device-aspect-ratio: 2/3)
+and (orientation:portrait) {
+	.love_part2{
+		height: 8rem;
+	}
+	.banner{
+		height:9rem;
+	}
+	section{
+		top:17rem;
+	}
+	section .sib_nav a.apply_box,section .sib_nav a.listen_box{
+	background-size:50% auto;
+}
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>耳蜗厂家</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/listen.css">
+	<script type="text/javascript" src='js/comment.js'></script>
+</head>
+<body class='listen_sib_bg_color'>
+<header class='banner'>
+    <img src="img/banner_title.png">
+</header>
+<section class='listen_factory'>
+    <h1 class='nav'><span class='select'>人工耳蜗</span><span>助听器</span></h1>
+    <div class='equip_one'>
+        <dl>
+            <dt><img src="img/factory_1.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+         <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+         <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+         <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+         <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+         <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+    </div>
+    <div class='equip_two hide'>
+        <dl>
+            <dt><img src="img/factory_2.jpg"></dt>
+            <dd>
+                <p>奥地利听力植入公司</p>
+            </dd>
+        </dl>
+    </div>
+</section>
+<footer id='footer'>
+	<a href='index.html' class='onepage'><span>首页</span></a>
+	<a href='#' class='send_btn'><img src="img/i_money.png">一键捐赠</a>
+	<a href='login.html' class='login_button'><span>登录</span></a>
+</footer>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+            $('.listen_factory .nav span').on('click',function(){
+                    var index=$(this).index();
+                    $(this).addClass('select').siblings().removeClass('select');
+                    $('.listen_factory div').eq(index).removeClass('hide').siblings('div').addClass('hide');
+            });
+    });
+</script>
+</body>
+</html>

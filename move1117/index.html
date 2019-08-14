@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/plug_css/swiper.css">
+	<script type="text/javascript" src='js/comment.js'></script>
+</head>
+<body>
+<div class='wrap'>
+	<header>
+	    <a href='love.html'>
+			<img src="img/i_b_title.png">
+		</a>
+	</header>
+	<section id='midd'>
+		<article>
+		    <a href='news_center.html' class='pic_show'>
+				<div class="swiper-container pic">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide fcon1"></div>
+						<div class="swiper-slide fcon2"></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+					<img src="img/i_new_title.png" class='news_title'>
+	    	</a>
+    		<a href="support.html" class='nav_son i_hand'>捐助与支持</a>
+    		<a href="aboutus.html" class='nav_son i_us'>关于我们</a>
+		</article>
+		<div class='sib_nav'>
+			<a href='help.html' class='apply_box'>申请救助</a>
+			<a href='listen.html' class='listen_box'>听力服务</a>
+			<a href='info.html' class='info_box border_none'>信息公示</a>
+		</div>
+	</section>
+<footer id='footer'>
+	<a href='#' class='onepage'><span>首页</span></a>
+	<a href='#' class='send_btn'><img src="img/i_money.png">一键捐赠</a>
+	<a href='login.html' class='login_button'><span>登录</span></a>
+</footer>
+</div>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript" src='js/plug/swiper.min.js'></script>
+<script>
+$(document).ready(function(){
+		/* banner轮播图  */
+	    var swiper = new Swiper('.pic', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+		    loop: true,
+			speed:1000,
+			paginationClickable: true,
+			grabCursor : true,
+			parallax:true,
+	        centeredSlides: true,
+	        autoplay: 2500,
+	        autoplayDisableOnInteraction: false
+	    });
+	     var h=$('.pic_show').height();
+	     console.log(h)
+	     $('.pic_show .swiper-slide').height(h);
+});
+
+</script>
+</body>
+</html>

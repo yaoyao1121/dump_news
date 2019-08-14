@@ -1,0 +1,29 @@
+.sib_banner{
+	height: 360px;
+	background: url(../img/one/three_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.three_service{
+	width:788px;
+}
+.hospital{
+	padding-left:30px;
+	overflow: hidden;
+}
+.hospital h1{
+	color:#f68658;
+	font-size:32px;
+	margin-bottom: 30px;
+}
+.hospital ul li{
+	width:378px;
+	font-size:16px;
+	float:left;
+	margin-bottom: 15px;
+}
+.hospital ul li .hang{
+	line-height: 30px;
+}
+.hospital ul li .hang a{
+	color:#383a3f;
+}

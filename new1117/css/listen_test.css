@@ -1,0 +1,103 @@
+.listen_test{
+	padding-top: 30px;
+}
+.sib_banner {
+	height: 360px;
+	background: url(../img/one/three_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.listen_test{
+	width:400px;
+	margin:20px 0 100px 150px;
+}
+.question{
+	display: none;
+}
+.question h1{
+	height: 44px;
+	line-height: 44px;
+	background: #ff804c;
+	font-size:16px;
+	color:#fff;
+	padding:0 12px;
+}
+.question h1 .left{
+	float:left;
+}
+.question h1 .right{
+	float:right;
+}
+.question h2{
+	font-size:16px;
+	text-align: center;
+	padding:12px 10px;
+	background: #fff;
+}
+.question .ok_or_no{
+	padding:50px 12px 0;
+}
+.question .ok_or_no .btn{
+	display: block;
+	border:none;
+	background: #ff804c;
+	color:#fff;
+	font-size:17px;
+	text-align: center;
+	border-radius:4px;
+	width:100%;
+	line-height: 39px;
+	-webkit-border-radius:4px;
+	margin-bottom: 25px;
+	position: relative;
+	cursor: pointer;
+}
+.question .ok_or_no .btn.bhover{
+	background: #F46E37;
+}
+.question .ok_or_no .btn input{
+	opacity: 0;
+	position: absolute;
+}
+.ask_con_ok{
+	padding:10px;
+	font-size:14px;
+}
+.ask_con_ok b{
+	color:#ff0000;
+	font-size:30px;
+}
+.ask_con_ok a{
+	color:#ff0000;
+}
+.masklayer{
+	position: fixed;
+	background: #fff;
+	border:1px solid #f68658;
+	width: 300px;
+	height: 150px;
+	padding: 4px 10px;
+	border-radius: 9px;
+	top:50%;
+	left:50%;
+	-webkit-border-radius:9px;
+	margin-top:-55px;
+	margin-left:-150px;
+}
+/*.masklayer h1{
+	font-size:14px;
+}
+.masklayer h1 span{
+	color:rgb(255, 0, 0);
+	font-size:30px;
+	padding:0 5px;
+}
+.masklayer h2{
+	padding: 3px 0;
+}
+.masklayer h2 a{
+	color:red;
+	padding:0 5px;
+}
+.masklayer p{
+	line-height: 20px;
+}*/

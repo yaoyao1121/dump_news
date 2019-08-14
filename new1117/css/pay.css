@@ -1,0 +1,26 @@
+.pay_bg{
+	background: #ff804c url(../img/pay/love_bg.png) no-repeat center top;
+}
+.pay_page{
+    height: 1020px;
+}
+.pay_code{
+	padding:210px 154px 0;
+}
+.pay_code dl{
+	float:left;
+	width:346px;
+	text-align: center;
+}
+.pay_code dl dt{
+	padding-bottom: 17px;
+}
+.pay_code dl p{
+	font-size:20px;
+	line-height: 30px;
+	padding-bottom: 36px;
+}
+.pay_code dl dd img{
+	width:160px;
+	height: 160px;
+}

@@ -1,0 +1,192 @@
+.bg_color{
+	background: #f0f0f2;
+}
+.logo{
+	width:5rem;
+	display: block;
+	height: auto;
+	margin:32px auto 10px;
+}
+.g_def{
+	padding:0 12px;
+}
+.g_def p.title {
+	color:#aeaeb0;
+	font-size:1.6rem;
+	text-align:center;
+	letter-spacing:4px;
+	padding-left:4px;
+	margin-bottom:28px;
+	cursor:pointer;
+}
+.g_def p.title b{
+	color:#aeaeb0;
+	padding:0 10px;
+	vertical-align:1px;
+}
+.g_def p.title span.select{
+	color:#383a3f;
+}
+.ui-form-item{
+	height:3.8rem;
+}
+.ui-form-item input{
+	width:100%;
+	line-height:3.8rem;
+	padding-left:4.9rem;
+	font-size:1.5rem;
+    color:#d2d2d4;
+    border:none;
+    border-bottom:1px solid #d2d2d4;
+}
+.ui-form-item input#user_name{
+	background: url(../img/login/user_pic.png) no-repeat 17px center;
+	background-size:1.7rem auto;
+}
+.ui-form-item input#user_name.select_bg{
+	background: url(../img/login/house.png) no-repeat 17px center;
+	background-size:1.7rem auto;
+}
+.ui-form-item input#user_password{
+	background: url(../img/login/lock.png) no-repeat 17px center;
+	background-size:1.5rem auto;
+}
+.ui-form-item input#user_password_ok{
+	background: url(../img/login/oklock.png) no-repeat 17px center;
+	background-size:1.5rem auto;
+}
+.ui-form-item input#user_phone{
+	background: url(../img/login/phone.png) no-repeat 17px center;
+	background-size:1.4rem auto;
+}
+.ui-form-item input#user_code{
+	background: url(../img/login/usercode.png) no-repeat 17px center;
+	background-size:1.5rem auto;
+}
+.ui-form-other{
+	font-size:12px;
+	overflow:hidden;
+	padding:18px 0 38px 19px;
+}
+.ui-checkbox,.ui-radio{
+	color:#aaaaaa;
+}
+.ui-checkbox input,.ui-radio input{
+	display:none;
+}
+.ui-checkbox input+label{
+	padding-left:20px;
+	cursor:pointer;
+	background:url(../img/login/checkbox.png) no-repeat 0 center;
+}
+.ui-checkbox input:checked+label{
+	background:url(../img/login/checkbox1.png) no-repeat 0 center;
+}
+.ui-form-other .u-cannot-login{
+	float:right;
+	color:#40a7ff;
+}
+.ui-form-other .u-cannot-login a{
+	color:#40a7ff;
+}
+.ui-form-other .u-cannot-login a:hover{
+	text-decoration:underline;
+}
+.ui-form-other .u-cannot-login i{
+	padding:0 9px;
+	vertical-align:1px;
+}
+.g_def_regist .u-form-submit{
+	padding:37px 0;
+}
+.u-form-submit .ui-btn-primary{
+	width:100%;
+	height:3.9rem;
+	line-height:3.9rem;
+	color:#fff;
+	font-size:1.8rem;
+	display:block;
+	background:#ff804c;
+	border:none;
+	cursor:pointer;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.u-form-submit .ui-btn-primary.greybg{
+	background:#BBBBBB;
+}
+.u-form-submit .ui-btn-primary.change_bgcolor{
+    opacity: 0.9;
+    filter:Alpha(opacity=90);
+}
+.m-third-login{
+	padding:29px 0 60px;
+}
+.m-third-login span{
+	color:#aaaaaa;
+	text-align: center;
+	display: block;
+	margin-bottom: 19px;
+	font-size:12px;
+}
+.m-third-login a{
+	display: block;
+	float:left;
+	height:18px;
+	width:25%;
+	padding:0 1.7rem;
+}
+.m-third-login a img{
+	width:100%;
+	height: auto;
+}
+
+/*遮罩层*/
+.km-dialog-mask {
+	font-size:13px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	left: 0;
+	top: 0;
+}
+.km-dialog-mask .mask{
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: #000;
+	opacity: .6;
+	left: 0;
+	top: 0;
+}
+.km-dialog{
+	position: absolute;
+	width:90%;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	border-radius: .5rem;
+	color: #6C6C6C;
+	z-index: 20;
+}
+.km-dialog .km-dialog-content{
+	padding: 1rem .6rem;
+	line-height: 1.2;
+	text-align: center;
+}
+.km-dialog .km-dialog-buttons {
+	margin-top: .3rem;
+	display: table;
+	width: 100%;
+	color: #F40;
+	border-top: 1px solid #DDD;
+}
+.km-dialog .km-dialog-buttons .km-dialog-btn{
+	display: table-cell;
+	text-align: center;
+	width: 100%;
+	padding: 1rem;
+	border-bottom: 0;
+}

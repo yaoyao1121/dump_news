@@ -1,0 +1,188 @@
+header{
+	height:10.8rem;
+	background: url(../img/i_banner.jpg) no-repeat center center;
+	background-size: cover;
+	width:100%;
+	position: relative;
+}
+header a{
+	display: block;
+	height: 100%;
+	width:100%;
+}
+header img{
+	width:20rem;
+	display: block;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+section{
+	position:absolute;
+	top:10.8rem;
+	bottom:4.2rem;
+	width:100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-box-align: center;
+	-moz-box-align: justify;
+	-ms-flex-align: center;
+}
+section article{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	-ms-box-orient:vertical;
+	-webkit-box-align: center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+section article .pic_show{
+	position: relative;
+	-webkit-box-flex: 4;
+	-moz-box-flex: 4;
+	-webkit-flex: 4;
+	-ms-flex: 4;
+	flex: 4;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	-ms-box-orient:vertical;
+	-webkit-box-align: center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+section article .pic .fcon1{
+	background: url(../img/i_new_bgpic.jpg) no-repeat center center;
+	background-size:cover;
+}
+section article .pic .fcon2{
+	background: url(../img/i_new_bgpic.jpg) no-repeat center center;
+	background-size:cover;
+}
+section article .news_title{
+    position: absolute;
+    z-index: 1000;
+    bottom:50px;
+    width:12.5rem;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+section article .swiper-container {
+    width: 100%;
+    position: absolute;
+}
+section article a.nav_son{
+	width:100%;
+	border-top:1px solid #fff;
+	color:transparent;
+	padding-left:3rem;
+	font-size:1.5rem;
+	font-weight: bold;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+section article a.i_hand{
+	background:#ff804c url(../img/i_icon_hand.png) no-repeat center center;
+	background-size:13.5rem auto;
+}
+section article a.i_us{
+	background:#ff804c url(../img/i_icon_tip.png) no-repeat center center;
+	background-size:13.5rem auto;
+}
+section .sib_nav{
+	width:10.5rem;
+	border-left:1px solid #fff;
+	background: #ff804c;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	-ms-box-orient:vertical;
+	-webkit-box-align: center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+section .sib_nav a{
+	display: block;
+	text-align:center;
+	position: relative;
+	color:transparent;
+	border-bottom:1px solid #fff;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+section .sib_nav a.apply_box{
+	background: url(../img/i_icon_pen.png) no-repeat center center;
+	background-size:60% auto;
+}
+section .sib_nav a.listen_box{
+	background: url(../img/i_icon_ear.png) no-repeat center center;
+	background-size:60% auto;
+}
+section .sib_nav a.info_box{
+	background: url(../img/i_icon_num.png) no-repeat center center;
+	background-size:60% auto;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-device-pixel-ratio: 2)
+and (device-aspect-ratio: 2/3)
+and (orientation:portrait) {
+header{
+	height:10rem;
+}
+section{
+	top:10rem;
+}
+section .sib_nav a.apply_box{
+	background: url(../img/i_icon_pen.png) no-repeat center center;
+	background-size:48% auto;
+}
+section .sib_nav a.listen_box{
+	background: url(../img/i_icon_ear.png) no-repeat center center;
+	background-size:48% auto;
+}
+section .sib_nav a.info_box{
+	background: url(../img/i_icon_num.png) no-repeat center center;
+	background-size:48% auto;
+}
+section article a.i_hand{
+	background:#ff804c url(../img/i_icon_hand.png) no-repeat 1.5rem center;
+	background-size:70% auto;
+}
+section article a.i_us{
+	background:#ff804c url(../img/i_icon_tip.png) no-repeat 1.5rem center;
+	background-size:70% auto;
+}
+}

@@ -1,0 +1,83 @@
+.bg{
+	background: #F0F0F2;
+}
+.pay_header{
+	line-height: 44px;
+	background: #000000;
+	color:#fff;
+	font-size:21px;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.field{
+	display: -webkit-box;
+	display: -webkit-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	border-bottom: 1px solid #DDD;
+	background-color: #fff;
+	line-height: 44px;
+	font-size:16px;
+}
+.field .label {
+	width: 80px;
+	padding-left:20px;
+}
+.field-control {
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+}
+.field-control input {
+	-webkit-appearance: none;
+	width: 100%;
+	padding: 0;
+	line-height: 45px;
+	border: 0;
+	font-size:16px;
+	background-color: transparent;
+}
+.field-right{
+	padding-right: 20px;
+}
+.pay_cont{
+	padding:0 10px;
+	margin-bottom: 33px;
+}
+.money{
+	display: -webkit-box;
+	display: -webkit-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+}
+.money p{
+	border:1px solid #FF804C;
+	color:#FF804C;
+	font-size:25px;
+	text-align: center;
+	line-height: 49px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	margin:20px 10px 0;
+	/*width: 30%;
+	margin:20px 4px 0;
+	float:left;*/
+}
+.money p.sel{
+	color:#fff;
+	background: #FF804C;
+}
+.money p.other_money{
+	font-size:16px;
+}
+.pay_bottom_btn{
+	padding:0 20px;
+	margin-bottom: 30px;
+}
+.pay_bottom_btn .donate{
+	width:100%;
+	line-height: 50px;
+	font-size:23px;
+	color:#fff;
+	background: #FF804C;
+	border:none;
+}

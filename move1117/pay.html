@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/pay.css">
+</head>
+<body class='bg'>
+<header class='pay_header'>
+	爱的分贝爱心捐赠
+</header>
+<section class='pay_mid'>
+	<div class='field'>
+		<div class="label">姓名</div>
+		<div class="field-control">
+            <input type="text" placeholder="选填">
+        </div>
+	</div>
+	<div class='field'>
+		<div class="label">手机号</div>
+		<div class="field-control">
+            <input type="text" placeholder="选填" onkeyup="value=this.value.replace(/\D+/g,'')">
+        </div>
+	</div>
+	<div class='field'>
+		<div class="label">捐款金额</div>
+		<div class="field-control">
+            <input type="text" placeholder="选填" class='give_mum' onkeyup="value=this.value.replace(/\D+/g,'')">
+        </div>
+        <div class='field-right'>元</div>
+	</div>
+</section>
+<section class='pay_cont'>
+	<div class='money'>
+		<p>50</p>
+		<p>100</p>
+		<p>150</p>
+	</div>
+	<div class='money'>
+		<p>200</p>
+		<p>300</p>
+		<p>500</p>
+	</div>
+	<div class='money'>
+		<p>1000</p>
+		<p>2000</p>
+		<p class='other_money'>其它金额</p>
+	</div>
+</section>
+<div class='pay_bottom_btn'>
+	<button class='donate'>捐赠</button>
+</div>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		    /* 点击除了 其它金额的 按钮*/
+			$('.pay_cont p:not(:last)').on('click',function(){
+				var text=$(this).text();
+				    $('.pay_cont p').removeClass('sel');
+					$(this).addClass('sel');
+					$('.give_mum').val(text);
+			});
+			/* 点击其它金额 */
+			$('.other_money').on('click',function(){
+					$('.give_mum').val('');
+					$('.give_mum').focus();
+					$('.pay_cont p').removeClass('sel');
+					$(this).addClass('sel');
+			});
+
+	});
+</script>
+</body>
+</html>

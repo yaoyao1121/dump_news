@@ -1,0 +1,27 @@
+.sib_banner{
+	height: 360px;
+	background: url(../img/one/two_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.six_aboutus{
+	width:782px;
+}
+.title{
+	font-size:40px;
+	line-height: 138px;
+	text-align: center;
+	border-bottom: 1px solid #dcdcde;
+	margin-bottom: 29px;
+}
+.jianjie{
+	padding-left:36px;
+	padding-bottom: 49px;
+}
+.jianjie h2{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.jianjie p{
+	line-height: 30px;
+	font-size:16px;
+}

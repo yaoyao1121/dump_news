@@ -1,0 +1,44 @@
+.sib_banner{
+	height: 360px;
+	background: url(../img/one/five_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.new_title{
+	font-size: 40px;
+	text-align: center;
+	padding:50px 0;
+	font-weight: normal;
+}
+.li_bg{
+	background: #e6e6e8;
+}
+.four_news{
+	min-height: 700px;
+}
+.newlist{
+	width:782px;
+	border-top:1px solid #dcdcde;
+	border-bottom:1px solid #dcdcde;
+	margin-bottom: 26px;
+}
+.newlist li{
+    padding:0 34px;
+    line-height: 48px;
+    overflow: hidden;
+    font-size:16px;
+}
+.newlist .news-t{
+	width:560px;
+	float:left;
+}
+.newlist .news-t a{
+	color:#383a3f;
+}
+.newlist .news-t a span{
+	padding-right: 9px;
+}
+.newlist .news-date{
+	float:right;
+	width:100px;
+	text-align: right;
+}

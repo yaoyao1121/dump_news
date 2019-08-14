@@ -1,0 +1,42 @@
+.sib_banner{
+	height: 360px;
+	background: url(../img/one/two_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.two_support{
+	padding-top:22px;
+}
+.nav_tab{
+	border-bottom: 1px solid #dcdcde;
+	padding-left:32px;
+	overflow: hidden;
+	width:750px;
+}
+.nav_tab li{
+	float:left;
+	margin-right: 10px;
+}
+.nav_tab li a{
+	text-align: center;
+	width:120px;
+	height: 48px;
+	line-height: 48px;
+	display: block;
+	font-size: 16px;
+	color:#262a33;
+}
+.nav_tab li a.sel{
+	background: #f68658;
+	color:#fff;
+}
+.two_support .content{
+	padding-top:14px;
+}
+.two_support .part{
+	padding-left:32px;
+	margin-bottom: 48px;
+	font-size:16px;
+}
+.two_support .part p{
+	line-height: 32px;
+}

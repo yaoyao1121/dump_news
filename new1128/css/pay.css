@@ -1,0 +1,36 @@
+.pay_bg{
+	background: #ff804c ;
+}
+.pay_page{
+    height: 616px;
+    background:url(../img/pay/love_bg.png) no-repeat top center;
+}
+.hand_bg{
+	 height:616px;
+	 width:1000px;
+	 background: url(../img/pay/hangbg.png) no-repeat center 60px;
+}
+.pay_code{
+	padding:80px 0 0;
+	width:500px;
+	margin:0 auto;
+}
+.pay_code dl{
+	float:left;
+	width:250px;
+	text-align: center;
+}
+.pay_code dl dt{
+	padding-bottom: 12px;
+}
+.pay_code dl dt img{
+	width:60px;
+}
+.pay_code dl p{
+	font-size:18px;
+	line-height: 30px;
+}
+.pay_code dl dd img{
+	width:120px;
+	height: 120px;
+}

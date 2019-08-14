@@ -1,0 +1,55 @@
+.detial {
+	padding-top:32px;
+}
+.detial h1{
+	font-size:16px;
+}
+.detial h1 a{
+	color:#383a3f;
+}
+.detial h1 span{
+	color:#ff804c;
+}
+.detial h1 i{
+	padding:0 6px;
+}
+.detial h2{
+	line-height: 142px;
+	text-align: center;
+	color:#ff804c;
+	font-size:32px;
+}
+.detial .conternt{
+	border-top:1px solid #dcdcde;
+	border-bottom:1px solid #dcdcde;
+	padding:33px 120px 58px;
+	height: auto;
+}
+.detial .conternt p{
+	line-height: 32px;
+	text-indent: 24px;
+	font-size:16px;
+}
+.detial ul{
+	margin-top:46px;
+}
+.detial ul li{
+	line-height: 32px;
+	font-size:16px;
+}
+.share{
+	margin-top:-19px;
+	text-align: center;
+}
+.share em{
+	padding:0 8px;
+	font-size:24px;
+	background: #f0f0f2;
+}
+.share .share_way{
+	margin:28px auto 40px;
+
+}
+.detial img{
+    padding:0 12px;
+}

@@ -1,0 +1,53 @@
+.sib_banner{
+	height: 360px;
+	background: url(../img/one/one_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+.one_apply{
+	padding:60px 0 0 60px;
+}
+.one_apply .item{
+	height: 128px;
+	margin-bottom: 49px;
+}
+.one_apply .item img{
+	float:left;
+	margin-right: 50px;
+}
+.one_apply .item dl{
+	border-left:2px solid #88899a;
+	padding-left:50px;
+	float:left;
+	height: 100px;
+	width:200px;
+	color:#202242;
+	margin:14px 50px 0 0;
+}
+.one_apply .item dl dt{
+	font-size:30px;
+	color:#f68657;
+	position: relative;
+	top:-6px;
+	margin-bottom: 25px;
+}
+.one_apply .item dl dt a{
+	color:#f68657;
+}
+.one_apply .item dl dd{
+	font-size:14px;
+}
+.one_apply .item dl dd a{
+	color:#202242;
+
+}
+.one_apply .item a.give{
+	float:left;
+	font-size: 24px;
+    color: #fff;
+    display: block;
+    line-height: 68px;
+    width: 160px;
+    text-align: center;
+    margin-top: 30px;
+    background: #f58658 url(../img/index/btn_bg.png) no-repeat 30px bottom;
+}

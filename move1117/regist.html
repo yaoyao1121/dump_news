@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人注册</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/login_regist.css">
+	<script type="text/javascript" src='js/comment.js'></script>
+</head>
+<body class='bg_color'>
+<div class='g_def g_def_regist'>
+		<img src="img/login/logo.png" class='logo'>
+		<p class='title'><span class='select' data-type='1'>个人注册</p>
+		<form id='regist'>
+			<div class='ui-form-item'>
+				<input type="text" name="login_id" placeholder='用户名称' id='user_name'>
+			</div>
+			<div class='ui-form-item'>
+				<input type="password" name="login_password" placeholder='用户密码' id='user_password'>
+			</div>
+			<div class='ui-form-item'>
+				<input type="password" name="login_password" placeholder='确认密码' id='user_password_ok'>
+			</div>
+			<div class='ui-form-item'>
+				<input type="text" name="login_password" placeholder='手机号' id='user_phone'>
+			</div>
+			<div class='ui-form-item'>
+				<input type="text" name="login_password" placeholder='验证码' id='user_code'>
+			</div>
+			<div class='u-form-submit'>
+				<button type="submit" class="ui-btn-primary" id="J_login_submit">
+                    <span class="ui-btn-loading-before">注册</span>
+                </button>
+			</div>
+		</form>
+</div>
+<!-- 遮罩层 -->
+<div class="km-dialog-mask hide">
+	<div class='mask'></div>
+	<div class="km-dialog " >
+		<div class="km-dialog-content">你输入的密码和账户名不匹配</div>
+		<div class="km-dialog-buttons">
+			<span class="km-dialog-btn" data-idx="alert0">确定</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript" src='js/login.js'></script>
+</body>
+</html>

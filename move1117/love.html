@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>让爱响亮</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/love.css">
+	<link rel="stylesheet" type="text/css" href="css/plug_css/swiper.css">
+	<script type="text/javascript" src='js/comment.js'></script>
+</head>
+<body>
+<header class='banner'>
+	<img src="img/banner_title.png">
+</header>
+<div class='love_part2'>
+    <p class='bgpic'>cd</p>
+    <p class='fontcont'>公益朗诵会简介文字,让爱响亮项目简介让爱响亮项目简介让爱响亮项目简介让爱响亮项目简介让爱响亮项目简介</p>
+</div>
+<section>
+		<article>
+		    <div class='pic_show'>
+				<div class="swiper-container pic">
+			        <div class="swiper-wrapper">
+			        <div class="swiper-slide fcon1"></div>
+			        <div class="swiper-slide fcon2"></div>
+			        </div>
+			        <div class="swiper-pagination"></div>
+		    	</div>
+		    	<img src="img/i_love_title.png" class='news_title'>
+	    	</div>
+		</article>
+		<div class='sib_nav'>
+			<a href='#' class='apply_box'>活动咨询</a>
+			<a href='#' class='listen_box'>购买光盘</a>
+		</div>
+</section>
+<footer id='footer'>
+	<a href='index.html' class='onepage'><span>首页</span></a>
+	<a href='#' class='send_btn'><img src="img/i_money.png">一键捐赠</a>
+	<a href='login.html' class='login_button'><span>登录</span></a>
+</footer>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript" src='js/plug/swiper.min.js'></script>
+<script>
+$(document).ready(function(){
+		/* banner轮播图  */
+	    var swiper = new Swiper('.pic', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+		    loop: true,
+			speed:1000,
+			paginationClickable: true,
+			grabCursor : true,
+			parallax:true,
+	        centeredSlides: true,
+	        autoplay: 2500,
+	        autoplayDisableOnInteraction: false
+	    });
+	     var h=$('.pic_show').height();
+	     console.log(h)
+	     $('.pic_show .swiper-slide').height(h);
+});
+</script>
+</body>
+</html>

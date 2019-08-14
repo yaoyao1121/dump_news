@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="css/comment.css">
+	<link rel="stylesheet" type="text/css" href="css/login_regist.css">
+	<script type="text/javascript" src='js/comment.js'></script>
+</head>
+<body class='bg_color'>
+<div class='g_def g_def_login'>
+		<img src="img/login/logo.png" class='logo'>
+		<p class='title'><span class='select' data-type='1'>个人登录</span><b>|</b><span data-type='2'>机构登录</span></p>
+		<form id='login'>
+			<div class='ui-form-item'>
+				<input type="text" name="login_id" placeholder='手机号/邮箱' id='user_name'>
+			</div>
+			<div class='ui-form-item'>
+				<input type="password" name="login_password" placeholder='密码' id='user_password'>
+			</div>
+			<div class='ui-form-other'>
+			    <span class='ui-checkbox f_left'>
+			        <input type="checkbox" id="J_auto_login">
+					<label for='J_auto_login'>记住我</label>
+				</span>
+				<span class='u-cannot-login'>
+					<a href="regist.html" class="reg">注册ID</a>
+					<i>|</i>
+					<a href="#" class="forget" target="_blank">忘记密码?</a>
+				</span>
+			</div>
+			<div class='u-form-submit'>
+				<button type="submit" class="ui-btn-primary" id="J_login_submit">
+                    <span class="ui-btn-loading-before">登录</span>
+                </button>
+			</div>
+			<div class='m-third-login'>
+				<span>其它账号登录</span>
+				<p>
+					<a href="#" target="_blank" title="支付宝" class="u-third-alipay">
+						<img src="img/login/alipay.png">
+					</a>
+					<a href="#" target="_blank" title="微信" class="u-third-wechat">
+						<img src="img/login/wechat.png">
+					</a>
+					<a href="#" target="_blank" title="QQ" class="u-third-qq">
+						<img src="img/login/qq.png">
+					</a>
+					<a href="#" target="_blank" title="新浪微博" class="u-third-sina">
+						<img src="img/login/sina.png">
+					</a>
+				</p>
+			</div>
+		</form>
+</div>
+<!-- 遮罩层 -->
+<div class="km-dialog-mask hide">
+	<div class='mask'></div>
+	<div class="km-dialog " >
+		<div class="km-dialog-content">你输入的密码和账户名不匹配</div>
+		<div class="km-dialog-buttons">
+			<span class="km-dialog-btn" data-idx="alert0">确定</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src='js/jquery-2.1.0.min.js'></script>
+<script type="text/javascript" src='js/login.js'></script>
+</body>
+</html>

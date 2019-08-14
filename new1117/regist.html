@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/login_regist.css">
+</head>
+<body class='bg_color'>
+    <!-- 个人注册 -->
+	<div class='g_def g_def_personal_regist hide'>
+		<p class='title'><span class='select'>个人注册</span><b>|</b><span class='jigou_reg'>机构注册</span></p>
+		<form>
+		    <div class='sl-error hide'></div>
+			<div class='ui-form-item'>
+				<i></i>
+				<input type="text" name="user_id" placeholder='用户名称' id='user_id'>
+			</div>
+			<div class='ui-form-item'>
+				<i class='userlock'></i>
+				<input type="password" name="user_password" placeholder='用户密码' id='user_password'>
+			</div>
+			<div class='ui-form-item'>
+				<i class='lock_ok'></i>
+				<input type="password" name="user_ok_password" placeholder='确认密码' id='user_ok_password'>
+			</div>
+			<div class='ui-form-item'>
+				<i class='phone_icon'></i>
+				<input type="text" name="phone" placeholder='手机号' id='phone'>
+			</div>
+			<div class='ui-form-item p_relative' style='margin-bottom: 32px;'>
+				<i class='code_icon'></i>
+				<input class='regist_code' type="button" value="获取验证码" id='js-regist-code'/>
+			</div>
+			<div class='u-form-submit'>
+				<button type="submit" class="ui-btn-primary" id='J_person_regist_submit'>
+                    <span class="ui-btn-gregist-before">注册</span>
+                    <span class="ui-btn-gregist-after hide">处理中...</span>
+                </button>
+			</div>
+		</form>
+	</div>
+	<!-- 机构注册 -->
+	<div class='g_def g_def_jigou_regist'>
+		<p class='title'><span class='person_reg'>个人注册</span><b>|</b><span class='select'>机构注册</span></p>
+		<form>
+			<table class='table'>
+				<tr>
+					<td class='text-center'>机构名称</td>
+					<td colspan="4"><input type="text"></td>
+				</tr>
+				<tr>
+					<td class='text-center'>机构资质</td>
+					<td class='w0'>
+						<span class='ui-checkbox f_left p_l24'>
+					        <input type="checkbox" id="type_one">
+							<label for='type_one'>民非</label>
+						</span>
+					    <span class='ui-checkbox f_left p_l24'>
+					        <input type="checkbox" id="type_two">
+							<label for='type_two'>工商</label>
+						</span>
+					</td>
+					<td colspan="3"><input type="" name="" placeholder=其它请补充></td>
+				</tr>
+				<tr>
+					<td class='text-center'>机构负责人</td>
+					<td><input type="" name=""></td>
+					<td class='text-center'>联系方式</td>
+					<td colspan="2"><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td class='text-center'>办学起始时间</td>
+					<td colspan="4">
+						<input id="Date" type='text'/>
+					</td>
+				</tr>
+				<tr>
+					<td class='text-center'>机构地址</td>
+					<td colspan="4"><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td class='text-center'>机构注册登记证</td>
+					<td colspan="3"></td>
+					<td class='text-center'><label class='sendpic'>上传照片</label></td>
+				</tr>
+				<tr>
+					<td class='text-center'>开户许可证</td>
+					<td colspan="3"></td>
+					<td class='text-center'><label class='sendpic'>上传照片</label></td>
+				</tr>
+				<tr>
+					<td class='text-center'>所获奖励及荣誉</td>
+					<td colspan="3"></td>
+					<td class='text-center'><label class='sendpic'>上传照片</label></td>
+				</tr>
+				<tr>
+					<td>
+						<span class='add_minus b_r'><img src="img/comm/add.png"></span>
+						<span class='add_minus'><img src="img/comm/minus.png"></span>
+					</td>
+					<td colspan="4"></td>
+				</tr>
+				<tr>
+					<td class='text-center'>发票</td>
+					<td colspan="4">
+					    <label class='f_left p_l24'>每月是否可以开具正规发票?</label>
+						<span class='ui-radio f_left'>
+					        <input type="radio" id="J_ok" name='ok_no'>
+							<label for='J_ok'>是</label>
+						</span>
+					    <span class='ui-radio f_left'>
+					        <input type="radio" id="J_no" name='ok_no'>
+							<label for='J_no'>否</label>
+							<b class='p_l24'>(发票内容必须是康复训练费)</b>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="4" class='text-center'>银行账户信息</td>
+				</tr>
+				<tr>
+					<td><label class='p_l24'>账户名称</label></td>
+					<td colspan="3"><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td ><label class='p_l24'>开户行名称</label></td>
+					<td ><input type="" name=""></td>
+					<td class='text-center'>行号</td>
+					<td ><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td  class='w1'><label class='p_l24'>账号</label></td>
+					<td colspan="3"><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td class='text-center'>优惠政策</td>
+					<td colspan="2">
+					    <span class='ui-radio f_left' >
+					        <input type="radio" id="J_add" name='ok_no'>
+							<label for='J_add'>增加课时</label>
+						</span>
+					    <span class='ui-radio f_left'>
+					        <input type="radio" id="J_sub" name='ok_no'>
+							<label for='J_sub'>减免学费</label>
+						</span>
+					</td>
+					<td class='text-center w1'>其他</td>
+					<td><input type="" name=""></td>
+				</tr>
+				<tr>
+					<td colspan="5" class='text-center p_relative'>注册须知<i class='arrow'></i></td>
+				</tr>
+			</table>
+			<div class='message'>
+				<div class='part'>
+							<p>尊敬的康复机构负责人：</p>
+							<p>爱的分贝听障儿童救助项目隶属于中华思源工程扶贫基金会，是全国唯一一家为0-7周岁听障儿童提供一揽子救助解决方案的公益机构。由于贵机构内有听障儿童的家长向爱的分贝提起了康复训练救助申请，我们联系贵机构，向您了解机构的办学情况，并派出专业志愿者深入机构和您见面做访问。在我们进行全面沟通的基础之下，请您本人阅读“爱的分贝申请救助须知”后再次确认以下内容：</p>
+							<p class='red'>1.已经获得国家项目救助的聋儿不能申请本项目</p>
+							<p class='red'>2.正在享受国项或其他免费康复项目的儿童不能申请本项目</p>
+							<p class='red'>3.有以下情况之一的儿童不能申请本项目：耳蜗严重畸形、助听器补偿效果不佳、智力低下、脑瘫、癫痫、自闭症等重大疾病患儿。</p>
+							<p>请贵机构在向爱的分贝提交康复申请时做好筛查工作。</p>
+						</div>
+						<div class='part'>
+							<p>另外，在志愿者走访时请出示贵机构提供以下资质证明：</p>
+							<p>民非/工商注册登记证、组织机构代码、税务登记证、教师学历证书、培训证书</p>
+							<p>我们的办公地址：北京市朝阳区甘露园19号718传媒文化创意园C座</p>
+							<p>联系人：爱的分贝</p>
+							<p>电话：010-85776577</p>
+						</div>
+			</div>
+			<div class='ui-checkbox text-center sel_read'>
+			        <input type="checkbox" id="J_read">
+					<label for='J_read'>我已阅读注册须知，并同意提交相应资料</label>
+			</div>
+			<div class='u-form-submit'>
+				<button type="submit" class="ui-btn-primary" id='J_jiregist_submit'>
+                    <span class="ui-btn-jregist-before">注册</span>
+                    <span class="ui-btn-jregist-after hide">处理中...</span>
+                </button>
+			</div>
+		</form>
+	</div>
+	<div class='g_bottom p_fixed'>
+		<div class='box'>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><span>|</span></li>
+				<li><a href="">法律声明</a></li>
+				<li><span>|</span></li>
+				<li><a href="">联系我们</a></li>
+				<li><span>|</span></li>
+				<li><a href="">职位招聘</a></li>
+				<li><span>|</span></li>
+				<li><a href="">淘宝公益店</a></li>
+				<li><span>|</span></li>
+				<li><a href="">爱分本基金会</a></li>
+			</ul>
+	    </div>
+		<p>Copyright © 春暖基金 ICP备案号：京ICP备14031912号-1</p>
+	</div>
+	<script type="text/javascript" src='js/jquery-1.11.0.min.js'></script>
+	<script type="text/javascript" src='js/regist.js'></script>
+</body>
+</html>

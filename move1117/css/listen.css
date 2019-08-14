@@ -1,0 +1,259 @@
+.listen_bg_color{
+	background: #ffcc80;
+}
+.listen_sib_bg_color{
+	background: #f0f0f2;
+}
+.listen_server{
+	position: absolute;
+	top:10.9rem;
+	bottom:4.2rem;
+	left:50%;
+}
+.menu a,.menu ul li{
+	width: 116px;
+	height: 100px;
+	display: block;
+	color:transparent;
+	position: absolute;
+}
+.menu .mid_icon {
+	top: 50%;
+	left: 50%;
+	background: url(../img/listen_mid.png) no-repeat center center;
+	background-size: cover;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.menu ul li:nth-child(1){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,55px);
+	transform: translate(-50%,55px);
+}
+.menu ul li:nth-child(2){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-150px,2px);
+	transform: translate(-150px,2px);
+}
+.menu ul li:nth-child(3){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-150px,-103px);
+	transform: translate(-150px,-103px);
+}
+.menu ul li:nth-child(4){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-155px);
+	transform: translate(-50%,-155px);
+}
+.menu ul li:nth-child(5){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(34px,-103px);
+	transform: translate(34px,-103px);
+}
+.menu ul li:nth-child(6){
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(34px,2px);
+	transform: translate(34px,2px);
+}
+.menu ul li:nth-child(1) a{
+	background: url(../img/listen_1.png) no-repeat center center;
+	background-size: cover;
+}
+.menu ul li:nth-child(2) a{
+	background: url(../img/listen_2.png) no-repeat center center;
+	background-size: cover;
+}
+.menu ul li:nth-child(3) a{
+	background: url(../img/listen_3.png) no-repeat center center;
+	background-size: cover;
+}
+.menu ul li:nth-child(4) a{
+	background: url(../img/listen_4.png) no-repeat center center;
+	background-size: cover;
+}
+.menu ul li:nth-child(5) a{
+	background: url(../img/listen_5.png) no-repeat center center;
+	background-size: cover;
+}
+.menu ul li:nth-child(6) a{
+	background: url(../img/listen_6.png) no-repeat center center;
+	background-size: cover;
+}
+/* 专家名录 */
+.listen_expert{
+	padding:12px 12px 4.5rem;
+}
+.listen_expert dl{
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #d2d2d4;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+}
+.listen_expert dl dt{
+	position:absolute;
+	width:114px;
+	height: 154px;
+}
+.listen_expert dl dt img{
+	width:100%;
+	height: 100%;
+}
+.listen_expert dl dd{
+	padding-left:130px;
+	font-size:13px;
+	color:#383a3f;
+	height: 154px;
+	overflow-y: auto;
+}
+.listen_expert dl dd p{
+	line-height: 22px;
+}
+/* 康复机构 */
+.listen_jigou{
+	padding:12px 12px 4.5rem;
+}
+.listen_jigou .jigou_list{
+	margin-bottom: 5px;
+}
+.listen_jigou .jigou_list h1{
+	color:#ff804c;
+	font-size:18px;
+	padding-bottom: 10px;
+}
+.listen_jigou .jigou_list p{
+	color:#383a3f;
+	font-size:13px;
+	line-height: 22px;
+}
+/* 耳蜗厂家 */
+.listen_factory{
+	margin-bottom: 5rem;
+}
+.listen_factory .nav{
+	height: 44px;
+	line-height: 44px;
+	background: #aeaeb0;
+	color:#fff;
+	font-size:14px;
+}
+.listen_factory .nav span{
+	float:left;
+	display: block;
+	width:50%;
+	height: 100%;
+	text-align: center;
+}
+.listen_factory .nav span.select{
+	background: #ff804c;
+}
+.listen_factory dl{
+	position: relative;
+	padding:12px;
+	height: 97px;
+	overflow: hidden;
+}
+.listen_factory dl dt{
+	position:absolute;
+	width:135px;
+	height: 85px;
+	border:1px solid #383a3f;
+}
+.listen_factory dl dt img{
+	width:100%;
+	height: 100%;
+}
+.listen_factory dl dd{
+	padding-left:148px;
+	font-size:13px;
+	color:#383a3f;
+	width:100%;
+	height: 85px;
+}
+.listen_factory dl dd p{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+/* 听力自测 */
+.listen_test{
+	margin-bottom: 5rem;
+}
+.question{
+	display: none;
+}
+.question h1{
+	height: 44px;
+	line-height: 44px;
+	background: #ff804c;
+	font-size:16px;
+	color:#fff;
+	padding:0 12px;
+}
+.question h1 .left{
+	float:left;
+}
+.question h1 .right{
+	float:right;
+}
+.question h2{
+	font-size:16px;
+	text-align: center;
+	padding:12px 10px;
+	background: #fff;
+}
+.question .ok_or_no{
+	padding:50px 12px 0;
+}
+.question .ok_or_no .btn{
+	display: block;
+	border:none;
+	background: #ff804c;
+	color:#fff;
+	font-size:17px;
+	text-align: center;
+	border-radius:4px;
+	width:100%;
+	line-height: 39px;
+	-webkit-border-radius:4px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.question .ok_or_no .btn input{
+	opacity: 0;
+	position: absolute;
+}
+.ask_con_ok{
+	padding:10px;
+	font-size:14px;
+}
+.ask_con_ok b{
+	color:#ff0000;
+	font-size:30px;
+}
+.ask_con_ok a{
+	color:#ff0000;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-device-pixel-ratio: 2)
+and (device-aspect-ratio: 2/3)
+and (orientation:portrait){
+	.listen_server{
+		height: 470px;
+		top: 6rem;
+	}
+}

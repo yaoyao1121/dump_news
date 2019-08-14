@@ -1,0 +1,171 @@
+.aboutus{
+	position: absolute;
+	top:10.9rem;
+	bottom:4.2rem;
+	width:100%;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-moz-box-orient:vertical;
+	-ms-box-orient:vertical;
+	-webkit-box-align: center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+.aboutus .nav_list{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-box-align: center;
+	-moz-box-align: justify;
+	-ms-flex-align: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.aboutus a{
+	color:transparent;
+	display: block;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.aboutus a.bg_one{
+	background:#ffcc80 url(../img/aboutus_one.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.aboutus a.bg_two{
+	background:#bc82a4 url(../img/aboutus_two.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.aboutus a.bg_three{
+	background:#f68658 url(../img/aboutus_three.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.aboutus a.bg_four{
+	background:#907ca6 url(../img/aboutus_four.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.support a.bg_five{
+	background:#bc82a4 url(../img/support_one.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.support a.bg_six{
+	background:#f68658 url(../img/support_two.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.support a.bg_senev{
+	background:#ffcc80 url(../img/support_three.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.support a.bg_eight{
+	background:#907ca6 url(../img/support_four.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.introduce a.bg_jiu{
+	background:#bc82a4 url(../img/indocu_1.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.introduce a.bg_shi{
+	background:#ffcc80 url(../img/indocu_2.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.introduce a.bg_shiyi{
+	background:#f68658 url(../img/indocu_3.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.introduce a.bg_shier{
+	background:#907ca6 url(../img/indocu_4.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.help a.bg_1{
+	background:#f68658 url(../img/help_one.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.help a.bg_2{
+	background:#ffcc80 url(../img/help_two.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.help a.bg_3{
+	background:#bc82a4 url(../img/help_three.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+.help a.bg_4{
+	background:#907ca6 url(../img/help_four.jpg) no-repeat center center;
+	background-size: 170px auto;
+}
+/* 捐助与支持--志愿者 */
+.support_volunte_list{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.support_volunte_list:nth-child(1){
+	background: #f68658 url(../img/voluneer_1.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+.support_volunte_list:nth-child(2){
+	background: #ffcc80 url(../img/voluneer_2.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+.support_volunte_list:nth-child(3){
+	background: #bc82a4 url(../img/voluneer_3.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+.support_give_list:nth-child(1){
+	background: #f68658 url(../img/give_1.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+.support_give_list:nth-child(2){
+	background: #ffcc80 url(../img/give_2.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+.support_give_list:nth-child(3){
+	background: #bc82a4 url(../img/give_3.jpg) no-repeat center center;
+	background-size: auto 90%;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-device-pixel-ratio: 2)
+and (device-aspect-ratio: 2/3)
+and (orientation:portrait){
+.aboutus a.bg_one,.aboutus a.bg_two,.aboutus a.bg_three,.aboutus a.bg_four{
+	background-size: 120px auto;
+}
+.support a.bg_five,.support a.bg_six,.support a.bg_senev,.support a.bg_eight{
+	background-size: 120px auto;
+}
+.help a.bg_1,.help a.bg_2,.help a.bg_3,.help a.bg_4{
+	background-size: 120px auto;
+}
+.introduce a.bg_jiu,.introduce a.bg_shi,.introduce a.bg_shiyi,.introduce a.bg_shier{
+	background-size: 120px auto;
+}
+.support_volunte_list:nth-child(1),.support_volunte_list:nth-child(2),.support_volunte_list:nth-child(3){
+	background-size: auto 90%;
+}
+.support_give_list:nth-child(1),.support_give_list:nth-child(2),.support_give_list:nth-child(3){
+	background-size: auto 90%;
+}
+
+}
